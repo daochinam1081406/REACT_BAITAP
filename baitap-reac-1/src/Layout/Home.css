@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  height: 150px;
+}
+
+.sidebar {
+  background-color: green;
+  color: white;
+  height: 400px;
+  width: 25%;
+}
+
+.content {
+  background-color: yellow;
+  color: white;
+  height: 400px;
+  width: 75%;
+}
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+}
+.mt-n4 {
+  margin-top: -1.5rem !important;
+}
+
+.footer {
+  background-color: orange;
+  color: white;
+  height: 150px;
+}
